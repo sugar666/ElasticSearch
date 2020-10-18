@@ -15,7 +15,7 @@
         </plugin>
 
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
-                        connectionURL="jdbc:mysql://localhost:3306/shortVideo?characterEncoding=utf-8"
+                        connectionURL="jdbc:mysql://localhost:3306/elastic?characterEncoding=utf-8"
                         userId="root"
                         password="YANGshu8">
 
@@ -37,10 +37,15 @@
         <javaClientGenerator targetPackage="com.yangshu.elastic.mapper" targetProject="src/main/java"
                              type="XMLMAPPER"/>
 
-        <table tableName="users">
-            <!--mysql 配置-->
-            <!--oracle 配置-->
-            <!--<generatedKey column="id" sqlStatement="select SEQ_{1}.nextval from dual" identity="false" type="pre"/>-->
+        <table tableName="user">
         </table>
+
+        <table tableName="shop">
+        </table>
+        <table tableName="seller">
+        </table>
+        <table tableName="category">
+        </table>
+
     </context>
 </generatorConfiguration>

@@ -20,7 +20,7 @@ public class GeneratorDisplay {
 		List<String> warnings = new ArrayList<String>();
 		boolean overwrite = true;
 		//指定 逆向工程配置文件generatorConfig.xml
-		File configFile = new File("/Users/yangshu/Project/learn_myself/spring-boot-elastic/src/main/resources/generatorConfig.xml");
+		File configFile = new File("/Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch/src/main/resources/generatorConfig.xml");
 		ConfigurationParser cp = new ConfigurationParser(warnings);
 		Configuration config = cp.parseConfiguration(configFile);
 		DefaultShellCallback callback = new DefaultShellCallback(overwrite);
