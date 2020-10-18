@@ -1,0 +1,88 @@
+server:
+  port: 8100
+
+spring:
+#  jackson:
+#    default-property-inclusion: non_null   # 向前端传递参数的时候，过滤掉空(null)对象
+  redis:
+    host: localhost
+    port: 6379
+    database: 15
+    password: YANGshu8
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    druid:
+      url: jdbc:mysql://localhost:3306/shortVideo?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
+      username: root
+      password: YANGshu8
+      initial-size: 5
+      min-idle: 10
+      max-active: 20
+      max-wait: 60000
+      test-on-borrow: true
+      stat-view-servlet:
+        allow: true
+      filter:
+        stat:
+          enabled: true
+          log-slow-sql: true
+          slow-sql-millis: 1000
+          merge-sql: true
+  rabbitmq:
+    host: 10.112.24.120
+    port: 5672
+    username: admin
+    password: admin
+    # 消费端的设置
+    listener:
+      simple:
+        concurrency: 10
+        max-concurrency: 20
+        prefetch: 1
+  thymeleaf:
+    prefix: classpath:/templates
+    cache: false
+
+
+
+# MyBatis
+mybatis:
+  # 搜索指定包别名（不指定的话，在xml中就需要写上权限类名）
+  typeAliasesPackage: com.yangshu.elastic.entity
+  # 配置mapper的扫描，找到所有的mapper.xml映射文件
+  mapperLocations: classpath:mapper/*Mapper*.xml
+  # 加载全局的配置文件
+  configLocation: classpath:mybatis-config.xml
+
+mapper:
+  mappers: com.yangshu.elastic.utils.MyMapper
+  not-empty: false
+  identity: MYSQL
+
+
+# PageHelper分页插件
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql
+
+debug: false
+
+
+# FastDFS
+fdfs:
+  # 链接超时
+  connect-timeout: 3000
+  # 读取时间
+  so-timeout: 2000
+  # 生成缩略图参数
+  thumb-image:
+    width: 150
+    height: 150
+  tracker-list: 10.112.24.120:22122
