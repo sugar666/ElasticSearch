@@ -1,0 +1,16 @@
+00:27:09.334 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.5.Final
+00:27:09.475 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarting,55] - Starting ElasticApplication on yangshudeMacBook-Air.local with PID 4153 (/Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch/target/classes started by yangshu in /Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch)
+00:27:09.477 [restartedMain] INFO  c.y.e.ElasticApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
+00:27:15.844 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8100"]
+00:27:15.847 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+00:27:15.848 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.38]
+00:27:16.087 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+00:27:18.658 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+00:27:18.803 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+00:27:20.009 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+00:27:24.573 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8100"]
+00:27:24.670 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+00:27:24.773 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+00:27:24.893 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+00:27:24.983 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarted,61] - Started ElasticApplication in 16.785 seconds (JVM running for 19.523)
+00:28:24.766 [http-nio-8100-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
