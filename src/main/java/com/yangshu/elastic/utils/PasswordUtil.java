@@ -1,5 +1,6 @@
 package com.yangshu.elastic.utils;
 
+import com.yangshu.elastic.entity.User;
 import org.apache.shiro.crypto.SecureRandomNumberGenerator;
 import org.apache.shiro.crypto.hash.Md5Hash;
 
@@ -14,9 +15,9 @@ public class PasswordUtil {
      * @param newPassword
      * @return
      */
-//    public static boolean matches(Users user, String newPassword) {
-//        return user.getPassword().equals(encryptPassword(newPassword, user.getSalt()));
-//    }
+    public static boolean matches(User user, String newPassword) {
+        return user.getPassword().equals(encryptPassword(newPassword, user.getSalt()));
+    }
 
     /**
      * 获取加密后的密码

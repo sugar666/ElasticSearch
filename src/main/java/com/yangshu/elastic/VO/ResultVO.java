@@ -18,7 +18,7 @@ public class ResultVO<T> implements Serializable {
     private Integer code;
 
     // 提示信息
-    private String msg;
+    private String status;
 
     // 数据内容
     private T data;

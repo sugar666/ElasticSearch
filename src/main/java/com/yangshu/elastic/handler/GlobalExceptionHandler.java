@@ -29,7 +29,7 @@ public class GlobalExceptionHandler {
     @ResponseBody
     public ResultVO handlerGlobalException(HttpServletRequest servletRequest, HttpServletResponse httpServletResponse, Exception ex){
         if(ex instanceof BusinessException){
-            return ResultVOUtil.error(((BusinessException) ex).getCode(),ex.getMessage());
+            return ResultVOUtil.error(((BusinessException) ex).getCode(),ex.getMessage(),((BusinessException) ex).getData());
         }else if(ex instanceof UserAuthorizeException) {
             return ResultVOUtil.error(ResultEnum.USER_IS_NOT_LOGIN.getCode(),ResultEnum.USER_IS_NOT_LOGIN.getMessage());
         }
