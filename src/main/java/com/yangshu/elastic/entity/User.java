@@ -2,12 +2,17 @@ package com.yangshu.elastic.entity;
 
 import lombok.Data;
 
+import java.io.Serializable;
 import java.util.Date;
 import javax.persistence.*;
 
 
 @Data
-public class User {
+public class User implements Serializable {
+
+
+    private static final long serialVersionUID = -2011643773058251655L;
+
     @Id
     private Integer id;
 
@@ -29,6 +34,8 @@ public class User {
 
     @Column(name = "nick_name")
     private String nickName;
+
+    private String salt;
 
     private Integer gender;
 

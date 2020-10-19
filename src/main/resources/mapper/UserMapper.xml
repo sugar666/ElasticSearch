@@ -11,6 +11,11 @@
     <result column="telphone" property="telphone" jdbcType="VARCHAR" />
     <result column="password" property="password" jdbcType="VARCHAR" />
     <result column="nick_name" property="nickName" jdbcType="VARCHAR" />
+    <result column="salt" property="salt" jdbcType="VARCHAR" />
     <result column="gender" property="gender" jdbcType="INTEGER" />
   </resultMap>
+
+  <select id="countAllUser" resultType="java.lang.Integer">
+    select count(1) from user
+  </select>
 </mapper>
