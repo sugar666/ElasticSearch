@@ -31,7 +31,7 @@ public class ControllerAspect {
         AdminPermission adminPermission = method.getAnnotation(AdminPermission.class);
         if(adminPermission == null){
             //公共方法
-            // TODO: 2020/10/19 直接的进行controller中的操作 
+            // TODO: 2020/10/19 直接的进行controller中的操作
             return joinPoint.proceed();
         }
         //判断当前管理员是否登录
