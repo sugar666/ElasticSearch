@@ -28,6 +28,7 @@ public enum ResultEnum {
     BIND_EXCEPTION_ERROR(50002,"请求参数错误"),
     UNKNOWN_ERROR(50003,"未知错误"),
     PASSWORD_IS_ERROR(50004,"用户密码错误"),
+    SELLER_IS_NOT_EXIST(50005,"商户不存在"),
 
 
 

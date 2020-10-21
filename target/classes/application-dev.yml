@@ -48,9 +48,6 @@ spring:
     prefix: classpath:/templates
     cache: false
     suffix: .html
-    servlet:
-      content-type: text/html
-    mode: LEGACYHTML5
   resources:
     # add-mappings=true表示如果所有的controller都没有命中，则使用默认的静态资源处理器做匹配
     add-mappings: true

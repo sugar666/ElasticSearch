@@ -23,7 +23,7 @@ import java.security.NoSuchAlgorithmException;
  * Description：
  */
 
-@Controller("/admin/admin")
+@Controller
 @RequestMapping("/admin/admin")
 public class AdminController {
 
