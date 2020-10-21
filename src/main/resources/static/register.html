@@ -177,11 +177,12 @@
                     "gender":gender
                 }),
                 success:function(data){
+                    alert(data.status);
                     if(data.status == "success"){
                         alert("注册成功");
                         window.location.href="/static/login.html";
                     }else{
-                        alert("请求失败,原因为"+data.status);
+                        // alert("请求失败,原因为"+data.status);
                     }
                 },
                 error:function(data){
