@@ -1,362 +1,509 @@
-00:27:09.334 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.5.Final
-00:27:09.475 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarting,55] - Starting ElasticApplication on yangshudeMacBook-Air.local with PID 4153 (/Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch/target/classes started by yangshu in /Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch)
-00:27:09.477 [restartedMain] INFO  c.y.e.ElasticApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
-00:27:15.844 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8100"]
-00:27:15.847 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
-00:27:15.848 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.38]
-00:27:16.087 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
-00:27:18.658 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-00:27:18.803 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
-00:27:20.009 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
-00:27:24.573 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8100"]
-00:27:24.670 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
-00:27:24.773 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
-00:27:24.893 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
-00:27:24.983 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarted,61] - Started ElasticApplication in 16.785 seconds (JVM running for 19.523)
-00:28:24.766 [http-nio-8100-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-11:32:23.406 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.5.Final
-11:32:23.553 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarting,55] - Starting ElasticApplication on yangshudeMacBook-Air.local with PID 9289 (/Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch/target/classes started by yangshu in /Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch)
-11:32:23.556 [restartedMain] INFO  c.y.e.ElasticApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
-11:32:30.093 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8100"]
-11:32:30.094 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
-11:32:30.094 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.38]
-11:32:30.353 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
-11:32:31.826 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
-11:32:33.007 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
-11:32:35.421 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-11:32:38.811 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8100"]
-11:32:38.885 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
-11:32:38.971 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
-11:32:39.050 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
-11:32:39.454 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarted,61] - Started ElasticApplication in 17.397 seconds (JVM running for 20.783)
-14:14:01.895 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.5.Final
-14:14:02.066 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarting,55] - Starting ElasticApplication on yangshudeMacBook-Air.local with PID 12120 (/Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch/target/classes started by yangshu in /Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch)
-14:14:02.070 [restartedMain] INFO  c.y.e.ElasticApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
-14:14:09.433 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8100"]
-14:14:09.445 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
-14:14:09.446 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.38]
-14:14:09.863 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
-14:14:11.434 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
-14:14:12.701 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
-14:14:15.098 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-14:14:18.681 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8100"]
-14:14:18.746 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
-14:14:18.792 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
-14:14:18.854 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
-14:14:19.352 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarted,61] - Started ElasticApplication in 19.126 seconds (JVM running for 23.598)
-14:15:28.692 [http-nio-8100-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14:16:27.026 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
-14:16:40.895 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.5.Final
-14:16:41.033 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarting,55] - Starting ElasticApplication on yangshudeMacBook-Air.local with PID 12292 (/Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch/target/classes started by yangshu in /Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch)
-14:16:41.035 [restartedMain] INFO  c.y.e.ElasticApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
-14:16:47.837 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8100"]
-14:16:47.840 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
-14:16:47.840 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.38]
-14:16:48.128 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
-14:16:49.704 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
-14:16:51.047 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
-14:16:59.624 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.5.Final
-14:16:59.755 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarting,55] - Starting ElasticApplication on yangshudeMacBook-Air.local with PID 12307 (/Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch/target/classes started by yangshu in /Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch)
-14:16:59.758 [restartedMain] INFO  c.y.e.ElasticApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
-14:17:05.178 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8100"]
-14:17:05.182 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
-14:17:05.183 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.38]
-14:17:05.397 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
-14:17:06.728 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
-14:17:07.589 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
-14:17:09.514 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-14:17:12.773 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8100"]
-14:17:12.868 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
-14:17:12.950 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
-14:17:13.022 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
-14:17:13.441 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarted,61] - Started ElasticApplication in 14.711 seconds (JVM running for 16.871)
-14:17:17.494 [http-nio-8100-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14:17:52.227 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
-14:18:01.704 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.5.Final
-14:18:01.793 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarting,55] - Starting ElasticApplication on yangshudeMacBook-Air.local with PID 12335 (/Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch/target/classes started by yangshu in /Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch)
-14:18:01.799 [restartedMain] INFO  c.y.e.ElasticApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
-14:18:06.932 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8100"]
-14:18:06.933 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
-14:18:06.934 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.38]
-14:18:07.133 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
-14:18:08.488 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
-14:18:09.337 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
-14:18:11.007 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-14:18:13.558 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8100"]
-14:18:13.632 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
-14:18:13.712 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
-14:18:13.790 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
-14:18:14.068 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarted,61] - Started ElasticApplication in 13.155 seconds (JVM running for 16.093)
-14:18:28.040 [http-nio-8100-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14:20:37.174 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.5.Final
-14:20:37.400 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarting,55] - Starting ElasticApplication on yangshudeMacBook-Air.local with PID 12427 (/Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch/target/classes started by yangshu in /Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch)
-14:20:37.419 [restartedMain] INFO  c.y.e.ElasticApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
-14:20:43.651 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8100"]
-14:20:43.654 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
-14:20:43.655 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.38]
-14:20:43.909 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
-14:20:45.421 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
-14:20:46.395 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
-14:20:49.079 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-14:20:52.562 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8100"]
-14:20:52.637 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
-14:20:52.741 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
-14:20:52.832 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
-14:20:53.257 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarted,61] - Started ElasticApplication in 17.589 seconds (JVM running for 21.633)
-14:20:55.794 [http-nio-8100-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14:45:31.098 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.5.Final
-14:45:31.232 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarting,55] - Starting ElasticApplication on yangshudeMacBook-Air.local with PID 13435 (/Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch/target/classes started by yangshu in /Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch)
-14:45:31.238 [restartedMain] INFO  c.y.e.ElasticApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
-14:45:38.617 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8100"]
-14:45:38.622 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
-14:45:38.622 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.38]
-14:45:38.946 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
-14:45:41.398 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
-14:45:43.656 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
-14:45:46.249 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-14:45:49.314 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8100"]
-14:45:49.450 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
-14:45:49.563 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
-14:45:49.673 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
-14:45:50.128 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarted,61] - Started ElasticApplication in 20.419 seconds (JVM running for 23.506)
-14:46:11.397 [http-nio-8100-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14:47:38.857 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
-14:48:10.755 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.5.Final
-14:48:10.905 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarting,55] - Starting ElasticApplication on yangshudeMacBook-Air.local with PID 13562 (/Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch/target/classes started by yangshu in /Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch)
-14:48:10.911 [restartedMain] INFO  c.y.e.ElasticApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
-14:48:17.487 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8100"]
-14:48:17.491 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
-14:48:17.491 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.38]
-14:48:17.726 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
-14:48:19.265 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
-14:48:20.395 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
-14:48:22.769 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-14:48:27.397 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8100"]
-14:48:27.479 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
-14:48:27.583 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
-14:48:27.721 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
-14:48:28.193 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarted,61] - Started ElasticApplication in 18.693 seconds (JVM running for 21.64)
-14:48:33.109 [http-nio-8100-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14:49:48.072 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
-14:50:01.205 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.5.Final
-14:50:01.318 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarting,55] - Starting ElasticApplication on yangshudeMacBook-Air.local with PID 13614 (/Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch/target/classes started by yangshu in /Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch)
-14:50:01.320 [restartedMain] INFO  c.y.e.ElasticApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
-14:50:06.516 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8100"]
-14:50:06.519 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
-14:50:06.520 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.38]
-14:50:06.734 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
-14:50:08.030 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
-14:50:08.863 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
-14:50:10.512 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-14:50:13.074 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8100"]
-14:50:13.139 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
-14:50:13.213 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
-14:50:13.269 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
-14:50:13.575 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarted,61] - Started ElasticApplication in 13.124 seconds (JVM running for 14.961)
-14:50:23.386 [http-nio-8100-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14:51:41.117 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
-14:51:54.347 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.5.Final
-14:51:54.645 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarting,55] - Starting ElasticApplication on yangshudeMacBook-Air.local with PID 13691 (/Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch/target/classes started by yangshu in /Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch)
-14:51:54.648 [restartedMain] INFO  c.y.e.ElasticApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
-14:52:21.601 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.5.Final
-14:52:21.772 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarting,55] - Starting ElasticApplication on yangshudeMacBook-Air.local with PID 13718 (/Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch/target/classes started by yangshu in /Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch)
-14:52:21.781 [restartedMain] INFO  c.y.e.ElasticApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
-14:52:33.375 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8100"]
-14:52:33.379 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
-14:52:33.380 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.38]
-14:52:33.585 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
-14:52:34.928 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
-14:52:35.699 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
-14:52:37.543 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-14:52:41.214 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8100"]
-14:52:41.348 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
-14:52:41.417 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
-14:52:41.784 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
-14:52:43.025 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarted,61] - Started ElasticApplication in 22.431 seconds (JVM running for 24.695)
-14:52:46.742 [http-nio-8100-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14:53:07.128 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
-14:53:17.347 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.5.Final
-14:53:17.494 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarting,55] - Starting ElasticApplication on yangshudeMacBook-Air.local with PID 13746 (/Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch/target/classes started by yangshu in /Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch)
-14:53:17.497 [restartedMain] INFO  c.y.e.ElasticApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
-14:53:22.455 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8100"]
-14:53:22.456 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
-14:53:22.456 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.38]
-14:53:22.677 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
-14:53:23.929 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
-14:53:24.769 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
-14:53:26.317 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-14:53:28.575 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8100"]
-14:53:28.631 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
-14:53:28.700 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
-14:53:28.749 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
-14:53:29.040 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarted,61] - Started ElasticApplication in 12.575 seconds (JVM running for 14.921)
-14:53:34.141 [http-nio-8100-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14:54:26.470 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
-14:54:36.173 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.5.Final
-14:54:36.271 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarting,55] - Starting ElasticApplication on yangshudeMacBook-Air.local with PID 13759 (/Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch/target/classes started by yangshu in /Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch)
-14:54:36.276 [restartedMain] INFO  c.y.e.ElasticApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
-14:54:41.520 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8100"]
-14:54:41.524 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
-14:54:41.525 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.38]
-14:54:41.721 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
-14:54:44.479 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
-14:54:45.471 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
-14:54:47.783 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-14:54:50.694 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8100"]
-14:54:50.758 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
-14:54:50.835 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
-14:54:50.889 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
-14:54:51.257 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarted,61] - Started ElasticApplication in 15.888 seconds (JVM running for 18.336)
-14:55:15.488 [http-nio-8100-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-14:58:40.405 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.5.Final
-14:58:40.589 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarting,55] - Starting ElasticApplication on yangshudeMacBook-Air.local with PID 13913 (/Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch/target/classes started by yangshu in /Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch)
-14:58:40.591 [restartedMain] INFO  c.y.e.ElasticApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
-14:58:46.737 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8100"]
-14:58:46.741 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
-14:58:46.741 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.38]
-14:58:46.998 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
-14:58:48.528 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
-14:58:49.718 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
-14:58:52.210 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-14:58:55.582 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8100"]
-14:58:55.687 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
-14:58:55.770 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
-14:58:55.855 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
-14:58:56.248 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarted,61] - Started ElasticApplication in 17.04 seconds (JVM running for 20.195)
-14:59:03.739 [http-nio-8100-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-15:48:26.530 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.5.Final
-15:48:26.693 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarting,55] - Starting ElasticApplication on yangshudeMacBook-Air.local with PID 15341 (/Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch/target/classes started by yangshu in /Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch)
-15:48:26.697 [restartedMain] INFO  c.y.e.ElasticApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
-15:48:33.920 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8100"]
-15:48:33.924 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
-15:48:33.925 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.38]
-15:48:34.225 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
-15:48:35.856 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
-15:48:37.009 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
-15:48:39.394 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-15:48:42.944 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8100"]
-15:48:43.026 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
-15:48:43.107 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
-15:48:43.201 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
-15:48:43.657 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarted,61] - Started ElasticApplication in 18.309 seconds (JVM running for 22.02)
-15:53:58.706 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.5.Final
-15:53:58.796 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarting,55] - Starting ElasticApplication on yangshudeMacBook-Air.local with PID 15556 (/Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch/target/classes started by yangshu in /Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch)
-15:53:58.798 [restartedMain] INFO  c.y.e.ElasticApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
-15:54:06.272 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8100"]
-15:54:06.276 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
-15:54:06.277 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.38]
-15:54:06.496 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
-15:54:08.017 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
-15:54:09.189 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
-15:54:11.617 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-15:54:15.177 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8100"]
-15:54:15.274 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
-15:54:15.363 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
-15:54:15.449 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
-15:54:16.307 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarted,61] - Started ElasticApplication in 18.869 seconds (JVM running for 22.146)
-15:54:30.078 [http-nio-8100-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-17:21:33.940 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.5.Final
-17:21:34.309 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarting,55] - Starting ElasticApplication on yangshudeMacBook-Air.local with PID 18044 (/Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch/target/classes started by yangshu in /Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch)
-17:21:34.315 [restartedMain] INFO  c.y.e.ElasticApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
-17:21:49.393 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8100"]
-17:21:49.404 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
-17:21:49.406 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.38]
-17:21:50.344 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
-17:21:53.229 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
-17:21:59.034 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
-17:22:07.010 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-17:22:11.104 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8100"]
-17:22:11.236 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
-17:22:11.346 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
-17:22:11.507 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
-17:22:12.070 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: loginUsingPOST_1
-17:22:12.177 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarted,61] - Started ElasticApplication in 41.105 seconds (JVM running for 47.458)
-17:22:19.049 [http-nio-8100-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-17:22:55.005 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
-17:24:14.256 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.5.Final
-17:24:14.381 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarting,55] - Starting ElasticApplication on yangshudeMacBook-Air.local with PID 18183 (/Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch/target/classes started by yangshu in /Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch)
-17:24:14.383 [restartedMain] INFO  c.y.e.ElasticApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
-17:24:30.737 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8100"]
-17:24:30.745 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
-17:24:30.746 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.38]
-17:24:31.047 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
-17:24:32.668 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
-17:24:33.885 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
-17:24:36.771 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-17:24:41.090 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8100"]
-17:24:41.159 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
-17:24:41.241 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
-17:24:41.326 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
-17:24:41.894 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: loginUsingPOST_1
-17:24:41.980 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarted,61] - Started ElasticApplication in 29.198 seconds (JVM running for 33.502)
-17:26:03.782 [http-nio-8100-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-17:27:11.417 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
-17:27:39.622 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.5.Final
-17:27:39.811 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarting,55] - Starting ElasticApplication on yangshudeMacBook-Air.local with PID 18366 (/Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch/target/classes started by yangshu in /Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch)
-17:27:39.816 [restartedMain] INFO  c.y.e.ElasticApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
-17:27:46.607 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8100"]
-17:27:46.611 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
-17:27:46.612 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.38]
-17:27:46.877 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
-17:27:48.531 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
-17:27:49.702 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
-17:27:52.149 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-17:27:56.253 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8100"]
-17:27:56.335 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
-17:27:56.410 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
-17:27:56.492 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
-17:27:56.920 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: loginUsingPOST_1
-17:27:56.988 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarted,61] - Started ElasticApplication in 18.736 seconds (JVM running for 21.857)
-17:28:04.015 [http-nio-8100-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-17:29:34.352 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
-17:29:52.724 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.5.Final
-17:29:52.990 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarting,55] - Starting ElasticApplication on yangshudeMacBook-Air.local with PID 18533 (/Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch/target/classes started by yangshu in /Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch)
-17:29:52.994 [restartedMain] INFO  c.y.e.ElasticApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
-17:30:03.164 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8100"]
-17:30:03.207 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
-17:30:03.208 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.38]
-17:30:03.731 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
-17:30:05.880 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
-17:30:07.406 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
-17:30:09.054 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-17:30:14.123 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8100"]
-17:30:14.204 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
-17:30:14.274 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
-17:30:14.343 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
-17:30:14.668 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: loginUsingPOST_1
-17:30:14.721 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarted,61] - Started ElasticApplication in 23.293 seconds (JVM running for 28.153)
-17:30:36.490 [http-nio-8100-exec-3] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-17:36:28.965 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.5.Final
-17:36:29.169 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarting,55] - Starting ElasticApplication on yangshudeMacBook-Air.local with PID 18774 (/Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch/target/classes started by yangshu in /Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch)
-17:36:29.171 [restartedMain] INFO  c.y.e.ElasticApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
-17:36:40.883 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8100"]
-17:36:40.887 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
-17:36:40.888 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.38]
-17:36:41.150 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
-17:36:42.731 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
-17:36:43.896 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
-17:36:46.256 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-17:36:50.130 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8100"]
-17:36:50.209 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
-17:36:50.284 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
-17:36:50.404 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
-17:36:50.950 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: loginUsingPOST_1
-17:36:51.027 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarted,61] - Started ElasticApplication in 23.308 seconds (JVM running for 26.795)
-17:37:15.457 [http-nio-8100-exec-5] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-17:39:26.656 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.5.Final
-17:39:26.908 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarting,55] - Starting ElasticApplication on yangshudeMacBook-Air.local with PID 18955 (/Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch/target/classes started by yangshu in /Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch)
-17:39:26.911 [restartedMain] INFO  c.y.e.ElasticApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
-17:39:34.132 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8100"]
-17:39:34.136 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
-17:39:34.137 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.38]
-17:39:34.409 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
-17:39:35.996 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
-17:39:37.251 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
-17:39:40.304 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-17:39:58.898 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8100"]
-17:39:59.277 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
-17:39:59.613 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
-17:40:00.317 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
-17:40:03.040 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: loginUsingPOST_1
-17:40:03.686 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarted,61] - Started ElasticApplication in 38.902 seconds (JVM running for 53.762)
-17:43:10.090 [http-nio-8100-exec-5] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:37:35.474 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.5.Final
+11:37:35.874 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarting,55] - Starting ElasticApplication on yangshudeMacBook-Air.local with PID 19631 (/Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch/target/classes started by yangshu in /Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch)
+11:37:35.883 [restartedMain] INFO  c.y.e.ElasticApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
+11:37:45.096 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8100"]
+11:37:45.101 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:37:45.102 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.38]
+11:37:45.378 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:37:47.390 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+11:37:49.030 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+11:37:57.733 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+11:38:03.635 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8100"]
+11:38:03.753 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+11:38:03.850 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+11:38:03.981 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+11:38:04.478 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingGET_1
+11:38:04.481 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingHEAD_1
+11:38:04.483 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPOST_1
+11:38:04.486 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPUT_1
+11:38:04.490 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPATCH_1
+11:38:04.497 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingDELETE_1
+11:38:04.502 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingOPTIONS_1
+11:38:04.507 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingTRACE_1
+11:38:04.543 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: loginUsingPOST_1
+11:38:04.614 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarted,61] - Started ElasticApplication in 32.821 seconds (JVM running for 40.222)
+11:38:11.279 [http-nio-8100-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:41:32.016 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+11:41:49.146 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.5.Final
+11:41:49.424 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarting,55] - Starting ElasticApplication on yangshudeMacBook-Air.local with PID 19796 (/Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch/target/classes started by yangshu in /Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch)
+11:41:49.428 [restartedMain] INFO  c.y.e.ElasticApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
+11:41:59.466 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8100"]
+11:41:59.472 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:41:59.474 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.38]
+11:42:00.343 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:42:02.925 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+11:42:04.225 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+11:42:08.771 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+11:42:13.064 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8100"]
+11:42:13.130 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+11:42:13.208 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+11:42:13.290 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+11:42:13.652 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingGET_1
+11:42:13.655 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingHEAD_1
+11:42:13.657 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPOST_1
+11:42:13.660 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPUT_1
+11:42:13.663 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPATCH_1
+11:42:13.667 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingDELETE_1
+11:42:13.670 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingOPTIONS_1
+11:42:13.674 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingTRACE_1
+11:42:13.709 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: loginUsingPOST_1
+11:42:13.772 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarted,61] - Started ElasticApplication in 27.09 seconds (JVM running for 30.977)
+11:42:22.480 [http-nio-8100-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:47:58.166 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+11:48:13.159 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.5.Final
+11:48:13.512 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarting,55] - Starting ElasticApplication on yangshudeMacBook-Air.local with PID 20238 (/Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch/target/classes started by yangshu in /Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch)
+11:48:13.516 [restartedMain] INFO  c.y.e.ElasticApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
+11:48:19.312 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8100"]
+11:48:19.313 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:48:19.314 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.38]
+11:48:19.492 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:48:20.785 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+11:48:21.943 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+11:48:24.187 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+11:48:27.817 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8100"]
+11:48:27.891 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+11:48:27.980 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+11:48:28.079 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+11:48:28.487 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingGET_1
+11:48:28.489 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingHEAD_1
+11:48:28.492 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPOST_1
+11:48:28.495 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPUT_1
+11:48:28.497 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPATCH_1
+11:48:28.500 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingDELETE_1
+11:48:28.503 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingOPTIONS_1
+11:48:28.505 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingTRACE_1
+11:48:28.536 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: loginUsingPOST_1
+11:48:28.614 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarted,61] - Started ElasticApplication in 16.633 seconds (JVM running for 19.971)
+11:48:37.162 [http-nio-8100-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:54:50.761 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+11:55:23.008 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.5.Final
+11:55:23.488 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarting,55] - Starting ElasticApplication on yangshudeMacBook-Air.local with PID 20670 (/Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch/target/classes started by yangshu in /Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch)
+11:55:23.751 [restartedMain] INFO  c.y.e.ElasticApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
+11:55:33.623 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8100"]
+11:55:33.630 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:55:33.632 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.38]
+11:55:34.298 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:55:36.568 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+11:55:38.815 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+11:55:41.987 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+11:55:46.371 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8100"]
+11:55:46.714 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+11:55:46.814 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+11:55:46.940 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+11:55:47.540 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingGET_1
+11:55:47.547 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingHEAD_1
+11:55:47.550 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPOST_1
+11:55:47.555 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPUT_1
+11:55:47.557 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPATCH_1
+11:55:47.561 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingDELETE_1
+11:55:47.573 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingOPTIONS_1
+11:55:47.576 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingTRACE_1
+11:55:47.618 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: loginUsingPOST_1
+11:55:47.699 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarted,61] - Started ElasticApplication in 26.787 seconds (JVM running for 31.718)
+11:55:56.317 [http-nio-8100-exec-2] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:58:19.597 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+11:58:35.166 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.5.Final
+11:58:35.442 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarting,55] - Starting ElasticApplication on yangshudeMacBook-Air.local with PID 20836 (/Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch/target/classes started by yangshu in /Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch)
+11:58:35.445 [restartedMain] INFO  c.y.e.ElasticApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
+11:58:42.614 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8100"]
+11:58:42.616 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:58:42.617 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.38]
+11:58:42.895 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:58:45.544 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+11:58:47.418 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+11:58:51.048 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+11:58:54.859 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8100"]
+11:58:54.982 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+11:58:55.081 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+11:58:55.198 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+11:58:55.626 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingGET_1
+11:58:55.629 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingHEAD_1
+11:58:55.631 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPOST_1
+11:58:55.634 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPUT_1
+11:58:55.636 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPATCH_1
+11:58:55.639 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingDELETE_1
+11:58:55.641 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingOPTIONS_1
+11:58:55.643 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingTRACE_1
+11:58:55.672 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: loginUsingPOST_1
+11:58:55.747 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarted,61] - Started ElasticApplication in 21.838 seconds (JVM running for 25.641)
+11:59:56.395 [http-nio-8100-exec-6] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:00:28.202 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+12:00:46.718 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.5.Final
+12:00:46.833 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarting,55] - Starting ElasticApplication on yangshudeMacBook-Air.local with PID 21004 (/Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch/target/classes started by yangshu in /Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch)
+12:00:46.834 [restartedMain] INFO  c.y.e.ElasticApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
+12:00:53.776 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8100"]
+12:00:53.780 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+12:00:53.781 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.38]
+12:00:54.034 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+12:00:55.642 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+12:00:56.809 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+12:00:59.517 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+12:01:03.189 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8100"]
+12:01:03.264 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+12:01:03.346 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+12:01:03.441 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+12:01:03.864 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingGET_1
+12:01:03.866 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingHEAD_1
+12:01:03.868 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPOST_1
+12:01:03.870 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPUT_1
+12:01:03.873 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPATCH_1
+12:01:03.875 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingDELETE_1
+12:01:03.877 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingOPTIONS_1
+12:01:03.880 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingTRACE_1
+12:01:03.907 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: loginUsingPOST_1
+12:01:03.972 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarted,61] - Started ElasticApplication in 18.535 seconds (JVM running for 22.094)
+12:02:06.563 [http-nio-8100-exec-2] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:03:15.264 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+12:03:30.035 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.5.Final
+12:03:30.170 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarting,55] - Starting ElasticApplication on yangshudeMacBook-Air.local with PID 21110 (/Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch/target/classes started by yangshu in /Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch)
+12:03:30.172 [restartedMain] INFO  c.y.e.ElasticApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
+12:03:36.797 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8100"]
+12:03:36.798 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+12:03:36.798 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.38]
+12:03:37.020 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+12:03:38.734 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+12:03:39.901 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+12:03:42.456 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+12:03:46.226 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8100"]
+12:03:46.294 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+12:03:46.389 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+12:03:46.496 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+12:03:46.925 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingGET_1
+12:03:46.927 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingHEAD_1
+12:03:46.929 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPOST_1
+12:03:46.931 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPUT_1
+12:03:46.933 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPATCH_1
+12:03:46.935 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingDELETE_1
+12:03:46.937 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingOPTIONS_1
+12:03:46.939 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingTRACE_1
+12:03:46.968 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: loginUsingPOST_1
+12:03:47.033 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarted,61] - Started ElasticApplication in 18.23 seconds (JVM running for 21.443)
+12:04:11.925 [http-nio-8100-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:05:49.372 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.5.Final
+12:05:49.615 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarting,55] - Starting ElasticApplication on yangshudeMacBook-Air.local with PID 21213 (/Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch/target/classes started by yangshu in /Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch)
+12:05:49.627 [restartedMain] INFO  c.y.e.ElasticApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
+12:06:00.581 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8100"]
+12:06:00.586 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+12:06:00.587 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.38]
+12:06:00.856 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+12:06:02.531 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+12:06:03.836 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+12:06:06.468 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+12:06:09.830 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8100"]
+12:06:09.930 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+12:06:10.023 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+12:06:10.090 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+12:06:10.482 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingGET_1
+12:06:10.484 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingHEAD_1
+12:06:10.486 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPOST_1
+12:06:10.489 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPUT_1
+12:06:10.491 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPATCH_1
+12:06:10.494 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingDELETE_1
+12:06:10.496 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingOPTIONS_1
+12:06:10.500 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingTRACE_1
+12:06:10.534 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: loginUsingPOST_1
+12:06:10.604 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarted,61] - Started ElasticApplication in 23.077 seconds (JVM running for 27.778)
+12:06:30.330 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+12:06:41.891 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.5.Final
+12:06:42.167 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarting,55] - Starting ElasticApplication on yangshudeMacBook-Air.local with PID 21267 (/Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch/target/classes started by yangshu in /Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch)
+12:06:42.174 [restartedMain] INFO  c.y.e.ElasticApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
+12:06:47.677 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8100"]
+12:06:47.679 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+12:06:47.680 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.38]
+12:06:47.872 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+12:06:49.894 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+12:06:50.915 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+12:06:53.232 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+12:06:55.985 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8100"]
+12:06:56.032 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+12:06:56.095 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+12:06:56.147 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+12:06:56.513 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingGET_1
+12:06:56.517 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingHEAD_1
+12:06:56.521 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPOST_1
+12:06:56.525 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPUT_1
+12:06:56.528 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPATCH_1
+12:06:56.532 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingDELETE_1
+12:06:56.536 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingOPTIONS_1
+12:06:56.539 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingTRACE_1
+12:06:56.575 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: loginUsingPOST_1
+12:06:56.639 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarted,61] - Started ElasticApplication in 16.206 seconds (JVM running for 18.621)
+12:07:02.566 [http-nio-8100-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:32:42.442 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.5.Final
+14:32:42.727 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarting,55] - Starting ElasticApplication on yangshudeMacBook-Air.local with PID 24319 (/Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch/target/classes started by yangshu in /Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch)
+14:32:42.739 [restartedMain] INFO  c.y.e.ElasticApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
+14:32:54.683 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8100"]
+14:32:54.689 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+14:32:54.691 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.38]
+14:32:55.075 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+14:32:59.701 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:33:06.635 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+14:33:11.443 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+14:33:15.840 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8100"]
+14:33:15.922 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+14:33:16.017 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+14:33:16.162 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+14:33:16.664 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingGET_1
+14:33:16.666 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingHEAD_1
+14:33:16.668 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPOST_1
+14:33:16.671 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPUT_1
+14:33:16.673 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPATCH_1
+14:33:16.675 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingDELETE_1
+14:33:16.676 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingOPTIONS_1
+14:33:16.679 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingTRACE_1
+14:33:16.709 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: loginUsingPOST_1
+14:33:16.782 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarted,61] - Started ElasticApplication in 35.808 seconds (JVM running for 42.65)
+14:35:41.299 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+14:35:56.344 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.5.Final
+14:35:56.612 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarting,55] - Starting ElasticApplication on yangshudeMacBook-Air.local with PID 24456 (/Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch/target/classes started by yangshu in /Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch)
+14:35:56.614 [restartedMain] INFO  c.y.e.ElasticApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
+14:36:02.373 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8100"]
+14:36:02.374 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+14:36:02.374 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.38]
+14:36:02.593 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+14:36:04.033 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+14:36:04.966 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+14:36:07.064 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+14:36:10.242 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8100"]
+14:36:10.305 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+14:36:10.401 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+14:36:10.468 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+14:36:10.813 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingGET_1
+14:36:10.815 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingHEAD_1
+14:36:10.818 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPOST_1
+14:36:10.822 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPUT_1
+14:36:10.824 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPATCH_1
+14:36:10.827 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingDELETE_1
+14:36:10.829 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingOPTIONS_1
+14:36:10.832 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingTRACE_1
+14:36:10.859 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: loginUsingPOST_1
+14:36:10.919 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarted,61] - Started ElasticApplication in 15.56 seconds (JVM running for 20.782)
+14:37:56.639 [http-nio-8100-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:28:16.962 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.5.Final
+15:28:17.686 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarting,55] - Starting ElasticApplication on yangshudeMacBook-Air.local with PID 26733 (/Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch/target/classes started by yangshu in /Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch)
+15:28:17.702 [restartedMain] INFO  c.y.e.ElasticApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
+15:28:32.825 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8100"]
+15:28:32.832 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+15:28:32.833 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.38]
+15:28:33.177 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+15:28:36.094 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+15:28:38.303 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+15:28:43.348 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+15:28:49.844 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8100"]
+15:28:50.187 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+15:28:50.803 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+15:28:51.242 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+15:28:52.404 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingGET_1
+15:28:52.425 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingHEAD_1
+15:28:52.465 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPOST_1
+15:28:52.475 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPUT_1
+15:28:52.482 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPATCH_1
+15:28:52.500 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingDELETE_1
+15:28:52.506 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingOPTIONS_1
+15:28:52.516 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingTRACE_1
+15:28:52.671 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: loginUsingPOST_1
+15:28:54.195 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarted,61] - Started ElasticApplication in 43.436 seconds (JVM running for 58.859)
+15:28:54.511 [http-nio-8100-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:29:19.985 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+15:29:48.385 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.5.Final
+15:29:48.868 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarting,55] - Starting ElasticApplication on yangshudeMacBook-Air.local with PID 26843 (/Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch/target/classes started by yangshu in /Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch)
+15:29:48.886 [restartedMain] INFO  c.y.e.ElasticApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
+15:30:10.913 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8100"]
+15:30:10.919 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+15:30:10.920 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.38]
+15:30:11.240 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+15:30:13.044 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+15:30:14.312 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+15:30:17.363 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+15:30:21.612 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8100"]
+15:30:21.698 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+15:30:21.795 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+15:30:21.919 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+15:30:22.377 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingGET_1
+15:30:22.379 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingHEAD_1
+15:30:22.381 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPOST_1
+15:30:22.384 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPUT_1
+15:30:22.387 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPATCH_1
+15:30:22.389 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingDELETE_1
+15:30:22.391 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingOPTIONS_1
+15:30:22.395 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingTRACE_1
+15:30:22.423 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: loginUsingPOST_1
+15:30:22.503 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarted,61] - Started ElasticApplication in 37.23 seconds (JVM running for 46.529)
+15:30:49.263 [http-nio-8100-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+21:40:05.793 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.5.Final
+21:40:05.949 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarting,55] - Starting ElasticApplication on yangshudeMacBook-Air.local with PID 34310 (/Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch/target/classes started by yangshu in /Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch)
+21:40:05.958 [restartedMain] INFO  c.y.e.ElasticApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
+21:40:17.317 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8100"]
+21:40:17.324 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+21:40:17.325 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.38]
+21:40:17.754 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+21:40:19.969 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+21:40:22.009 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+21:40:26.492 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+21:40:31.934 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8100"]
+21:40:32.029 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+21:40:32.131 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+21:40:32.328 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+21:40:33.362 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingGET_1
+21:40:33.423 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingHEAD_1
+21:40:33.428 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPOST_1
+21:40:33.442 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPUT_1
+21:40:33.449 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPATCH_1
+21:40:33.455 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingDELETE_1
+21:40:33.459 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingOPTIONS_1
+21:40:33.463 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingTRACE_1
+21:40:33.556 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: loginUsingPOST_1
+21:40:33.850 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarted,61] - Started ElasticApplication in 30.366 seconds (JVM running for 37.801)
+22:02:37.716 [http-nio-8100-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+22:07:18.912 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.5.Final
+22:07:19.142 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarting,55] - Starting ElasticApplication on yangshudeMacBook-Air.local with PID 34883 (/Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch/target/classes started by yangshu in /Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch)
+22:07:19.144 [restartedMain] INFO  c.y.e.ElasticApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
+22:07:26.160 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8100"]
+22:07:26.164 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+22:07:26.165 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.38]
+22:07:26.436 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+22:07:28.073 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+22:07:29.274 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+22:07:32.280 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+22:07:38.734 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8100"]
+22:07:38.817 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+22:07:38.918 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+22:07:39.047 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+22:07:39.628 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingGET_1
+22:07:39.630 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingHEAD_1
+22:07:39.632 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPOST_1
+22:07:39.634 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPUT_1
+22:07:39.636 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPATCH_1
+22:07:39.638 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingDELETE_1
+22:07:39.640 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingOPTIONS_1
+22:07:39.641 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingTRACE_1
+22:07:39.664 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: loginUsingPOST_1
+22:07:39.718 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarted,61] - Started ElasticApplication in 22.199 seconds (JVM running for 26.441)
+22:07:46.249 [http-nio-8100-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+22:28:49.186 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.5.Final
+22:28:49.490 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarting,55] - Starting ElasticApplication on yangshudeMacBook-Air.local with PID 35467 (/Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch/target/classes started by yangshu in /Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch)
+22:28:49.494 [restartedMain] INFO  c.y.e.ElasticApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
+22:28:58.534 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8100"]
+22:28:58.538 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+22:28:58.539 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.38]
+22:28:58.866 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+22:29:00.550 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+22:29:01.798 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+22:29:04.860 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+22:29:09.310 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8100"]
+22:29:09.405 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+22:29:09.496 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+22:29:09.630 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+22:29:10.210 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingGET_1
+22:29:10.221 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingHEAD_1
+22:29:10.224 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPOST_1
+22:29:10.226 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPUT_1
+22:29:10.234 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPATCH_1
+22:29:10.246 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingDELETE_1
+22:29:10.253 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingOPTIONS_1
+22:29:10.260 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingTRACE_1
+22:29:10.319 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: createUsingPOST_1
+22:29:10.323 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: createPageUsingGET_1
+22:29:10.326 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: createPageUsingHEAD_1
+22:29:10.328 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: createPageUsingPOST_1
+22:29:10.330 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: createPageUsingPUT_1
+22:29:10.332 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: createPageUsingPATCH_1
+22:29:10.334 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: createPageUsingDELETE_1
+22:29:10.336 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: createPageUsingOPTIONS_1
+22:29:10.339 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: createPageUsingTRACE_1
+22:29:10.349 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingGET_2
+22:29:10.366 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingHEAD_2
+22:29:10.369 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPOST_2
+22:29:10.377 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPUT_2
+22:29:10.443 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPATCH_2
+22:29:10.509 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingDELETE_2
+22:29:10.513 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingOPTIONS_2
+22:29:10.515 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingTRACE_2
+22:29:10.556 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: loginUsingPOST_1
+22:29:10.661 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarted,61] - Started ElasticApplication in 24.236 seconds (JVM running for 28.924)
+22:29:14.377 [http-nio-8100-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+22:38:24.043 [SpringContextShutdownHook] INFO  c.a.d.p.DruidDataSource - [close,1928] - {dataSource-1} closed
+22:38:52.613 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.5.Final
+22:38:53.233 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarting,55] - Starting ElasticApplication on yangshudeMacBook-Air.local with PID 35949 (/Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch/target/classes started by yangshu in /Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch)
+22:38:53.236 [restartedMain] INFO  c.y.e.ElasticApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
+22:39:10.221 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8100"]
+22:39:10.227 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+22:39:10.227 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.38]
+22:39:10.550 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+22:39:12.660 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+22:39:13.972 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+22:39:18.774 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+22:39:23.802 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8100"]
+22:39:23.923 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+22:39:24.056 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+22:39:24.199 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+22:39:24.738 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingGET_1
+22:39:24.741 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingHEAD_1
+22:39:24.743 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPOST_1
+22:39:24.745 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPUT_1
+22:39:24.759 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPATCH_1
+22:39:24.769 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingDELETE_1
+22:39:24.775 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingOPTIONS_1
+22:39:24.778 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingTRACE_1
+22:39:24.801 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: createUsingPOST_1
+22:39:24.805 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: createPageUsingGET_1
+22:39:24.806 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: createPageUsingHEAD_1
+22:39:24.811 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: createPageUsingPOST_1
+22:39:24.820 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: createPageUsingPUT_1
+22:39:24.826 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: createPageUsingPATCH_1
+22:39:24.828 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: createPageUsingDELETE_1
+22:39:24.835 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: createPageUsingOPTIONS_1
+22:39:24.837 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: createPageUsingTRACE_1
+22:39:24.846 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingGET_2
+22:39:24.850 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingHEAD_2
+22:39:24.853 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPOST_2
+22:39:24.861 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPUT_2
+22:39:24.869 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPATCH_2
+22:39:24.873 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingDELETE_2
+22:39:24.877 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingOPTIONS_2
+22:39:24.880 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingTRACE_2
+22:39:24.945 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: loginUsingPOST_1
+22:39:25.121 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarted,61] - Started ElasticApplication in 38.123 seconds (JVM running for 43.306)
+22:39:52.923 [http-nio-8100-exec-2] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+22:41:45.976 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.5.Final
+22:41:46.226 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarting,55] - Starting ElasticApplication on yangshudeMacBook-Air.local with PID 36135 (/Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch/target/classes started by yangshu in /Users/yangshu/Project/learn_myself/elasticSearch/ElasticSearch)
+22:41:46.230 [restartedMain] INFO  c.y.e.ElasticApplication - [logStartupProfileInfo,655] - The following profiles are active: dev
+22:41:58.025 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8100"]
+22:41:58.029 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+22:41:58.030 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.38]
+22:41:58.288 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+22:41:59.981 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - [dataSource,56] - Init DruidDataSource
+22:42:01.190 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+22:42:04.306 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+22:42:08.659 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8100"]
+22:42:08.752 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+22:42:08.842 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+22:42:08.995 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+22:42:09.494 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingGET_1
+22:42:09.499 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingHEAD_1
+22:42:09.501 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPOST_1
+22:42:09.503 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPUT_1
+22:42:09.505 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPATCH_1
+22:42:09.507 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingDELETE_1
+22:42:09.509 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingOPTIONS_1
+22:42:09.512 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingTRACE_1
+22:42:09.532 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: createUsingPOST_1
+22:42:09.536 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: createPageUsingGET_1
+22:42:09.538 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: createPageUsingHEAD_1
+22:42:09.539 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: createPageUsingPOST_1
+22:42:09.541 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: createPageUsingPUT_1
+22:42:09.545 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: createPageUsingPATCH_1
+22:42:09.548 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: createPageUsingDELETE_1
+22:42:09.550 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: createPageUsingOPTIONS_1
+22:42:09.551 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: createPageUsingTRACE_1
+22:42:09.555 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingGET_2
+22:42:09.557 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingHEAD_2
+22:42:09.559 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPOST_2
+22:42:09.560 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPUT_2
+22:42:09.562 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingPATCH_2
+22:42:09.564 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingDELETE_2
+22:42:09.565 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingOPTIONS_2
+22:42:09.568 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: indexUsingTRACE_2
+22:42:09.593 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - [startingWith,40] - Generating unique operation named: loginUsingPOST_1
+22:42:09.667 [restartedMain] INFO  c.y.e.ElasticApplication - [logStarted,61] - Started ElasticApplication in 25.41 seconds (JVM running for 30.214)
+22:45:23.897 [http-nio-8100-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'

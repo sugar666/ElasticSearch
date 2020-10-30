@@ -40,7 +40,7 @@ public class UserController {
 
     @ApiOperation(value = "用户注册",notes = "/user/register")
     @PostMapping("/register")
-    public ResultVO register(@Valid @RequestBody RegisterVO registerVO, BindingResult bindingResult) throws BusinessException {
+    public ResultVO register(@Valid RegisterVO registerVO, BindingResult bindingResult) throws BusinessException {
         if(bindingResult.hasErrors()) {
             throw new BusinessException(ResultEnum.BIND_EXCEPTION_ERROR.getCode(),ResultEnum.BIND_EXCEPTION_ERROR.getMessage(), ParamsVerifyUtil.processErrorString(bindingResult));
         }
@@ -74,7 +74,7 @@ public class UserController {
     }
 
     @ApiOperation(value = "获取用户信息",notes = "/user/getcurrentuser")
-    @GetMapping("/getcurrentuser")
+    @GetMapping("/getcurrentusr")
     public ResultVO getcurrentuser() {
         User user = (User) httpServletRequest.getSession().getAttribute(CURRENT_USER_SESSION);
         return ResultVOUtil.success(user);

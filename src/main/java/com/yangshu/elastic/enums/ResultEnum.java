@@ -12,7 +12,7 @@ import lombok.Getter;
 @Getter
 public enum ResultEnum {
 
-    SUCCESS(200,"成功"),
+    SUCCESS(200,"success"),
 
     // 公共错误码-系统设置-用户授权管理：用户、授权：40001起
     UNAUTHORIZED(40001,"用户权限错误"),
@@ -28,6 +28,8 @@ public enum ResultEnum {
     BIND_EXCEPTION_ERROR(50002,"请求参数错误"),
     UNKNOWN_ERROR(50003,"未知错误"),
     PASSWORD_IS_ERROR(50004,"用户密码错误"),
+    SELLER_IS_NOT_EXIST(50005,"商户不存在"),
+    CATEGORY_DUP_FAIL(50006,"商户id重复"),
 
 
 
